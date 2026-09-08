@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/alex/CLionProjects/FIX_parser/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/alex/CLionProjects/FIX_parser/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/FIX_parser.dir/src/main.cpp.o -c /home/alex/CLionProjects/FIX_parser/src/main.cpp",
+  "file": "/home/alex/CLionProjects/FIX_parser/src/main.cpp",
+  "output": "/home/alex/CLionProjects/FIX_parser/cmake-build-debug/CMakeFiles/FIX_parser.dir/src/main.cpp.o"
+}
+]

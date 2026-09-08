@@ -1,0 +1,7 @@
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/FIX_parser.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/edit_cache.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/rebuild_cache.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/list_install_components.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/install.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/install/local.dir
+/home/alex/CLionProjects/FIX_parser/build/CMakeFiles/install/strip.dir

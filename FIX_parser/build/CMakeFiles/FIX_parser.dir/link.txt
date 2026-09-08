@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/FIX_parser.dir/link.d CMakeFiles/FIX_parser.dir/src/main.cpp.o -o FIX_parser
