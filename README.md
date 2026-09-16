@@ -5,7 +5,7 @@ as a client, parses FIX 4.4 session/application messages from the stream, and
 either measures pure in-memory parse performance or emits structured
 JSON-lines records per message.
 
-Performance-driven design: the parser scans fields with a single pass over the
+The parser scans fields with a single pass over the
 buffer, uses `memchr` to jump to the next `SOH`, and keeps allocation off the
 hot path. The measurement and logging paths are separate loops so that logging
 machinery never interrupts the measured decode time.
@@ -133,8 +133,8 @@ project was measured on an `Intel i7-9750H` (2.6 GHz base / 4.5 GHz turbo).
 | `powersave` governor (clock ~0.9 GHz)      | ~1.0–1.8 ms                 |
 
 While on the `powersave` governor the clock sits near its floor (~0.9 GHz on
-this machine), which makes the *same binary* appear ~4–5x slower — the
-"regression" from 0.22 ms to ~1 ms was entirely frequency scaling. Restoring the `performance` governor returned the original ~0.2 ms:
+this machine), which makes the *same binary* appear ~4–5x slower, the
+regression from 0.22 ms to ~1 ms was entirely frequency scaling. Restoring the `performance` governor returned the original ~0.2 ms:
 
 ```sh
 sudo cpupower frequency-set -g performance
